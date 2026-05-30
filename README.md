@@ -163,7 +163,7 @@ O sistema possui 3 camadas de proteção:
 
 ## 🎥 8. Vídeo
 
-- <a href="https://youtu.be/itTuvuUSilk">Link do vídeo
+- <a href="https://youtu.be/usf_5gLK_bo">Link do vídeo
 
 <br>
 
