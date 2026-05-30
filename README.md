@@ -17,6 +17,7 @@ Cap 2 - Colheita de Dados e Insights - dados valiosos e maduros - Enterprise Cha
 - <a href="https://www.linkedin.com/company/inova-fusca">Fatima Candal</a>
 - <a href="https://www.linkedin.com/company/inova-fusca"> Matheus Alboredo Soares</a> 
 - <a href="https://www.linkedin.com/company/inova-fusca">Jonathan Willian Luft </a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Ana Belchior </a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
