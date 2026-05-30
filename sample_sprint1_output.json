@@ -1,0 +1,210 @@
+{
+  "paciente": {
+    "id": "PAC-2024-001",
+    "nome": "Carlos Silva",
+    "data_nascimento": "1985-03-15",
+    "sexo": "masculino",
+    "data_exame": "2024-11-20",
+    "laboratorio": "Dasa/Genera"
+  },
+  "ancestralidade": {
+    "composicao": [
+      {
+        "origem": "Europeia",
+        "percentual": 68,
+        "haplogrupo": "H1a1",
+        "marcadores_associados": ["rs429358", "rs7412"],
+        "implicacoes": "Maior prevalência de fenilcetonúria e hemocromatose hereditária nesta população"
+      },
+      {
+        "origem": "Africana",
+        "percentual": 22,
+        "haplogrupo": "L3b1",
+        "marcadores_associados": ["rs3091244", "rs1800629"],
+        "implicacoes": "Proteção parcial contra malária, variantes de traço falciforme negativas"
+      },
+      {
+        "origem": "Ameríndia",
+        "percentual": 10,
+        "haplogrupo": "A2",
+        "marcadores_associados": ["rs9939609"],
+        "implicacoes": "Predisposição aumentada para diabetes tipo 2 e síndrome metabólica"
+      }
+    ]
+  },
+  "riscos_doencas": [
+    {
+      "nome": "Diabetes Tipo 2",
+      "nivel_risco": "Elevado",
+      "percentual_risco": 38,
+      "media_populacional": 11,
+      "variantes": ["rs7903146", "rs12255372", "rs9939609"],
+      "genes": ["TCF7L2", "FTO", "PPARG"],
+      "descricao": "Risco 3.5x acima da média populacional. O gene TCF7L2 é o principal fator de risco genético para DM2 identificado até hoje. A combinação com ancestralidade ameríndia amplifica o risco.",
+      "fatores_estilo_vida": [
+        "Dieta com baixo índice glicêmico é altamente recomendada",
+        "Exercício aeróbico 150 min/semana reduz o risco em até 58%",
+        "Monitoramento de glicemia de jejum anual"
+      ]
+    },
+    {
+      "nome": "Doença Cardiovascular",
+      "nivel_risco": "Moderado",
+      "percentual_risco": 24,
+      "media_populacional": 15,
+      "variantes": ["rs1333049", "rs2383207", "rs10757278"],
+      "genes": ["CDKN2B-AS1", "CXCL12"],
+      "descricao": "Risco 1.6x acima da média. Variantes no locus 9p21 associadas a IAM e angina instável. Responde bem a estatinas.",
+      "fatores_estilo_vida": [
+        "Perfil lipídico anual obrigatório",
+        "Dieta mediterrânea apresenta benefício documentado",
+        "Controle rigoroso de pressão arterial"
+      ]
+    },
+    {
+      "nome": "Câncer de Mama",
+      "nivel_risco": "Baixo-Moderado",
+      "percentual_risco": 12,
+      "media_populacional": 12,
+      "variantes": ["rs2981582", "rs3817198"],
+      "genes": ["FGFR2", "LSP1"],
+      "descricao": "Risco próximo à média populacional. Ausência de variantes BRCA1/BRCA2 patogênicas. Rastreamento padrão recomendado.",
+      "fatores_estilo_vida": [
+        "Mamografia anual a partir dos 40 anos",
+        "Manutenção de peso saudável",
+        "Limitar consumo de álcool"
+      ]
+    },
+    {
+      "nome": "Doença de Alzheimer",
+      "nivel_risco": "Moderado",
+      "percentual_risco": 19,
+      "media_populacional": 14,
+      "variantes": ["rs429358", "rs7412"],
+      "genes": ["APOE"],
+      "descricao": "Portador do alelo APOE ε3/ε4 (heterozigoto). Risco aumentado mas não determinístico. APOE ε4 aumenta risco 3-4x em homozigotos; heterozigoto confere risco intermediário.",
+      "fatores_estilo_vida": [
+        "Estimulação cognitiva contínua",
+        "Controle cardiovascular reduz risco neurológico",
+        "Sono de qualidade (7-9h) é neuroprotetor"
+      ]
+    },
+    {
+      "nome": "Trombose Venosa Profunda",
+      "nivel_risco": "Baixo",
+      "percentual_risco": 4,
+      "media_populacional": 3,
+      "variantes": ["rs6025"],
+      "genes": ["F5"],
+      "descricao": "Fator V Leiden negativo. Risco próximo à média populacional. Não requer profilaxia anticoagulante preventiva.",
+      "fatores_estilo_vida": [
+        "Hidratação adequada em viagens longas",
+        "Evitar imobilidade prolongada"
+      ]
+    }
+  ],
+  "bem_estar": {
+    "nutricao": [
+      {
+        "caracteristica": "Metabolismo de Cafeína",
+        "genotipo": "CYP1A2 *1A/*1F (metabolizador lento)",
+        "resultado": "Metabolizador Lento",
+        "impacto": "Cafeína permanece mais tempo no organismo. Consumo acima de 200mg/dia associado a maior risco cardiovascular neste genótipo.",
+        "recomendacao": "Limitar a 1-2 xícaras de café por dia. Evitar cafeína após 14h.",
+        "variantes": ["rs762551"]
+      },
+      {
+        "caracteristica": "Intolerância à Lactose",
+        "genotipo": "LCT -13910 CC (não-persistência da lactase)",
+        "resultado": "Intolerante à Lactose",
+        "impacto": "Deficiência da enzima lactase na vida adulta. 70% dos portadores apresentam sintomas gastrointestinais.",
+        "recomendacao": "Preferir laticínios fermentados (iogurte, kefir) ou suplementar com lactase. Vitamina D e cálcio merecem atenção especial.",
+        "variantes": ["rs4988235"]
+      },
+      {
+        "caracteristica": "Vitamina D",
+        "genotipo": "VDR rs2228570 CT",
+        "resultado": "Absorção Reduzida",
+        "impacto": "Polimorfismo no receptor de vitamina D associado a menor absorção intestinal e maior risco de deficiência.",
+        "recomendacao": "Monitorar 25-OH Vitamina D semestralmente. Exposição solar moderada diária. Considerar suplementação conforme exame.",
+        "variantes": ["rs2228570", "rs731236"]
+      },
+      {
+        "caracteristica": "Ácido Fólico (MTHFR)",
+        "genotipo": "MTHFR C677T heterozigoto (CT)",
+        "resultado": "Metabolizador Intermediário",
+        "impacto": "Atividade da enzima MTHFR reduzida em ~35%. Pode elevar homocisteína. Risco cardiovascular e reprodutivo levemente aumentado.",
+        "recomendacao": "Preferir folato (5-MTHF) na suplementação ao invés de ácido fólico sintético. Dieta rica em folatos naturais.",
+        "variantes": ["rs1801133"]
+      }
+    ],
+    "farmacogenomica": [
+      {
+        "caracteristica": "Metabolismo de Varfarina",
+        "genotipo": "CYP2C9 *1/*2 + VKORC1 AG",
+        "resultado": "Metabolizador Intermediário",
+        "impacto": "Necessita de dose reduzida de varfarina. Risco aumentado de sangramentos com dose padrão.",
+        "recomendacao": "Se prescrito anticoagulante, informar médico sobre este resultado. Dose inicial recomendada: 40-60% da dose padrão.",
+        "variantes": ["rs1799853", "rs9923231"]
+      },
+      {
+        "caracteristica": "Estatinas (Miopatia)",
+        "genotipo": "SLCO1B1 rs4149056 CT",
+        "resultado": "Risco Intermediário de Miopatia",
+        "impacto": "Polimorfismo associado a maior exposição plasmática de estatinas, elevando risco de miopatia e rabdomiólise.",
+        "recomendacao": "Preferir rosuvastatina ou pravastatina. Monitorar CPK nos primeiros 6 meses. Evitar sinvastatina 80mg.",
+        "variantes": ["rs4149056"]
+      }
+    ],
+    "aptidao_fisica": [
+      {
+        "caracteristica": "Tipo de Fibra Muscular",
+        "genotipo": "ACTN3 R577X RR",
+        "resultado": "Predominância de Fibras de Contração Rápida (Força/Potência)",
+        "impacto": "Genótipo associado a atletas de potência. Melhor resposta a treinos de resistência e força do que endurance.",
+        "recomendacao": "Priorizar treino de força e HIIT. Atividades como musculação, sprints e esportes de contato tendem a ter melhor resposta.",
+        "variantes": ["rs1815739"]
+      },
+      {
+        "caracteristica": "Recuperação Muscular",
+        "genotipo": "IL6 -174 GC",
+        "resultado": "Resposta Inflamatória Moderada ao Exercício",
+        "impacto": "Produção moderada de IL-6 pós-exercício. Recuperação dentro da média esperada.",
+        "recomendacao": "48-72h de recuperação entre sessões intensas. Anti-inflamatórios naturais (cúrcuma, ômega-3) podem auxiliar.",
+        "variantes": ["rs1800795"]
+      }
+    ]
+  },
+  "recomendacoes": {
+    "prioridade_alta": {
+      "categoria": "Prevenção Metabólica",
+      "acao": "Consultar endocrinologista para estratégia preventiva de diabetes. Solicitar TOTG (Teste Oral de Tolerância à Glicose), hemoglobina glicada e insulina de jejum.",
+      "prioridade": "Alta",
+      "especialista": "Endocrinologista"
+    },
+    "prioridade_media_1": {
+      "categoria": "Saúde Cardiovascular",
+      "acao": "Avaliação cardiológica com lipidograma completo, PCR ultra-sensível e pressão arterial. Iniciar dieta mediterrânea.",
+      "prioridade": "Média",
+      "especialista": "Cardiologista"
+    },
+    "prioridade_media_2": {
+      "categoria": "Neurologia Preventiva",
+      "acao": "Estilo de vida neuroprotetor: exercício, sono, estimulação cognitiva. Reavaliação em 5 anos.",
+      "prioridade": "Média",
+      "especialista": "Neurologista (opcional)"
+    },
+    "nutricional": {
+      "categoria": "Nutrição Personalizada",
+      "acao": "Consultar nutricionista especializado em nutrigenômica. Avaliar suplementação de Vitamina D, folato (5-MTHF) e gestão da lactose.",
+      "prioridade": "Média",
+      "especialista": "Nutricionista"
+    },
+    "farmacologica": {
+      "categoria": "Alerta Farmacogenômico",
+      "acao": "Carregar resultado deste exame em toda consulta médica. Especial atenção para prescrições de varfarina, estatinas e anticoagulantes.",
+      "prioridade": "Alta (quando prescrito)",
+      "especialista": "Médico assistente"
+    }
+  }
+}

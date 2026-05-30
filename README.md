@@ -1,32 +1,9 @@
-# FIAP - Inteligência artificial e data science
+# Genera Intelligence · Challenge Dasa/Genera
+## Sprint 2 — Engrenagem de Inteligência + Interface de Chat
 
-<p align="center">
-<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
-</p>
+---
 
-<br>
-
-# Enterprise Challenge - Sprint 2 - DASA
-Cap 2 - Colheita de Dados e Insights - dados valiosos e maduros - Enterprise Challenge - Sprint 1
-
-## Nome do grupo
-41
-
-## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Guilherme Campos Hermanowski </a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Fatima Candal</a>
-- <a href="https://www.linkedin.com/company/inova-fusca"> Matheus Alboredo Soares</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Jonathan Willian Luft </a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Ana Belchior </a>
-
-## 👩‍🏫 Professores:
-### Tutor(a) 
-- <a href="https://www.linkedin.com/company/inova-fusca">Caique Nonato da Silva Bezerra</a>
-### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">ANDRÉ GODOI CHIOVATO</a>
-
-
-## 📜 1. Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 rag_genomics/
@@ -37,9 +14,9 @@ rag_genomics/
 └── README.md                 # Este arquivo
 ```
 
-<br>
+---
 
-## 💡 2. Instalação
+## Instalação
 
 ```bash
 # 1. Criar ambiente virtual
@@ -59,9 +36,7 @@ pip install openai anthropic
 
 ---
 
-<br>
-
-## 📊 3. Executar a Interface
+## Executar a Interface
 
 ```bash
 streamlit run app.py
@@ -71,7 +46,7 @@ Acesse: http://localhost:8501
 
 ---
 
-## 🤖 4. Integrar o RAG Real (Produção)
+## Integrar o RAG Real (Produção)
 
 Substitua a função `mock_rag_answer()` em `app.py`:
 
@@ -115,10 +90,7 @@ def real_rag_answer(question: str) -> dict:
 
 ---
 
-<br>
-
-
-## 🔧 5. Variáveis de Ambiente
+## Variáveis de Ambiente
 
 ```bash
 export OPENAI_API_KEY="sk-..."
@@ -126,6 +98,7 @@ export ANTHROPIC_API_KEY="sk-ant-..."
 ```
 
 ---
+
 ## Arquitetura
 
 ```
@@ -163,13 +136,3 @@ O sistema possui 3 camadas de proteção:
 1. **Prompt de Sistema**: instrui explicitamente o LLM a responder *apenas* com base no contexto
 2. **Score Mínimo**: chunks com similaridade < 0.25 são descartados
 3. **Grounding Check**: heurística pós-geração verifica se a resposta usa termos do contexto
-
-<br>
-
-## 🎥 8. Vídeo
-
-- <a href="https://youtu.be/itTuvuUSilk">Link do vídeo
-
-<br>
-
-## 📋 Licença

@@ -1,0 +1,14 @@
+# ── Interface ──────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── RAG Core (instalar para produção) ──────────────────────────────────────
+sentence-transformers>=2.7.0     # Embeddings multilinguais PT-BR
+faiss-cpu>=1.8.0                 # Vector store em memória
+numpy>=1.26.0
+
+# ── LLM Backends (escolha um ou ambos) ────────────────────────────────────
+openai>=1.30.0                   # GPT-4o-mini / text-embedding-3-small
+anthropic>=0.28.0                # Claude Sonnet
+
+# ── Utilitários ────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0             # Gerenciamento de variáveis de ambiente
